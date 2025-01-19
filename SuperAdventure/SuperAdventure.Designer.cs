@@ -56,91 +56,90 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 28);
+            this.label1.Location = new System.Drawing.Point(18, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 20);
+            this.label1.Size = new System.Drawing.Size(66, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hit Points:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 60);
+            this.label2.Location = new System.Drawing.Point(18, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 20);
+            this.label2.Size = new System.Drawing.Size(39, 16);
             this.label2.TabIndex = 0;
             this.label2.Text = "Gold:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 91);
+            this.label3.Location = new System.Drawing.Point(18, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 20);
+            this.label3.Size = new System.Drawing.Size(78, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Experience:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 125);
+            this.label4.Location = new System.Drawing.Point(18, 100);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
+            this.label4.Size = new System.Drawing.Size(43, 16);
             this.label4.TabIndex = 0;
             this.label4.Text = "Level:";
             // 
             // lblHitPoints
             // 
             this.lblHitPoints.AutoSize = true;
-            this.lblHitPoints.Location = new System.Drawing.Point(124, 28);
+            this.lblHitPoints.Location = new System.Drawing.Point(110, 22);
             this.lblHitPoints.Name = "lblHitPoints";
-            this.lblHitPoints.Size = new System.Drawing.Size(18, 20);
+            this.lblHitPoints.Size = new System.Drawing.Size(14, 16);
             this.lblHitPoints.TabIndex = 3;
             this.lblHitPoints.Text = "0";
             // 
             // lblGold
             // 
             this.lblGold.AutoSize = true;
-            this.lblGold.Location = new System.Drawing.Point(124, 60);
+            this.lblGold.Location = new System.Drawing.Point(110, 48);
             this.lblGold.Name = "lblGold";
-            this.lblGold.Size = new System.Drawing.Size(18, 20);
+            this.lblGold.Size = new System.Drawing.Size(14, 16);
             this.lblGold.TabIndex = 4;
             this.lblGold.Text = "0";
             // 
             // lblExperience
             // 
             this.lblExperience.AutoSize = true;
-            this.lblExperience.Location = new System.Drawing.Point(124, 91);
+            this.lblExperience.Location = new System.Drawing.Point(110, 73);
             this.lblExperience.Name = "lblExperience";
-            this.lblExperience.Size = new System.Drawing.Size(18, 20);
+            this.lblExperience.Size = new System.Drawing.Size(14, 16);
             this.lblExperience.TabIndex = 5;
             this.lblExperience.Text = "0";
             // 
             // lblLevel
             // 
             this.lblLevel.AutoSize = true;
-            this.lblLevel.Location = new System.Drawing.Point(124, 125);
+            this.lblLevel.Location = new System.Drawing.Point(110, 100);
             this.lblLevel.Name = "lblLevel";
-            this.lblLevel.Size = new System.Drawing.Size(18, 20);
+            this.lblLevel.Size = new System.Drawing.Size(14, 16);
             this.lblLevel.TabIndex = 6;
             this.lblLevel.Text = "0";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(793, 664);
+            this.label5.Location = new System.Drawing.Point(705, 531);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(101, 20);
+            this.label5.Size = new System.Drawing.Size(84, 16);
             this.label5.TabIndex = 7;
             this.label5.Text = "Select action";
             // 
             // cboWeapons
             // 
             this.cboWeapons.FormattingEnabled = true;
-            this.cboWeapons.Location = new System.Drawing.Point(552, 699);
-            this.cboWeapons.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cboWeapons.Location = new System.Drawing.Point(491, 559);
             this.cboWeapons.Name = "cboWeapons";
-            this.cboWeapons.Size = new System.Drawing.Size(142, 28);
+            this.cboWeapons.Size = new System.Drawing.Size(127, 24);
             this.cboWeapons.TabIndex = 8;
             // 
             // cboPotions
@@ -148,18 +147,16 @@
             this.cboPotions.FormattingEnabled = true;
             this.cboPotions.Items.AddRange(new object[] {
             "369"});
-            this.cboPotions.Location = new System.Drawing.Point(552, 742);
-            this.cboPotions.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cboPotions.Location = new System.Drawing.Point(491, 594);
             this.cboPotions.Name = "cboPotions";
-            this.cboPotions.Size = new System.Drawing.Size(142, 28);
+            this.cboPotions.Size = new System.Drawing.Size(127, 24);
             this.cboPotions.TabIndex = 9;
             // 
             // btnUseWeapon
             // 
-            this.btnUseWeapon.Location = new System.Drawing.Point(797, 699);
-            this.btnUseWeapon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUseWeapon.Location = new System.Drawing.Point(708, 559);
             this.btnUseWeapon.Name = "btnUseWeapon";
-            this.btnUseWeapon.Size = new System.Drawing.Size(84, 29);
+            this.btnUseWeapon.Size = new System.Drawing.Size(75, 23);
             this.btnUseWeapon.TabIndex = 10;
             this.btnUseWeapon.Text = "Use";
             this.btnUseWeapon.UseVisualStyleBackColor = true;
@@ -167,10 +164,9 @@
             // 
             // btnUsePotion
             // 
-            this.btnUsePotion.Location = new System.Drawing.Point(797, 741);
-            this.btnUsePotion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUsePotion.Location = new System.Drawing.Point(708, 593);
             this.btnUsePotion.Name = "btnUsePotion";
-            this.btnUsePotion.Size = new System.Drawing.Size(84, 29);
+            this.btnUsePotion.Size = new System.Drawing.Size(75, 23);
             this.btnUsePotion.TabIndex = 11;
             this.btnUsePotion.Text = "Use";
             this.btnUsePotion.UseVisualStyleBackColor = true;
@@ -178,10 +174,9 @@
             // 
             // btnNorth
             // 
-            this.btnNorth.Location = new System.Drawing.Point(660, 539);
-            this.btnNorth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnNorth.Location = new System.Drawing.Point(587, 431);
             this.btnNorth.Name = "btnNorth";
-            this.btnNorth.Size = new System.Drawing.Size(84, 29);
+            this.btnNorth.Size = new System.Drawing.Size(75, 23);
             this.btnNorth.TabIndex = 12;
             this.btnNorth.Text = "North";
             this.btnNorth.UseVisualStyleBackColor = true;
@@ -189,10 +184,9 @@
             // 
             // btnSouth
             // 
-            this.btnSouth.Location = new System.Drawing.Point(660, 605);
-            this.btnSouth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSouth.Location = new System.Drawing.Point(587, 484);
             this.btnSouth.Name = "btnSouth";
-            this.btnSouth.Size = new System.Drawing.Size(84, 29);
+            this.btnSouth.Size = new System.Drawing.Size(75, 23);
             this.btnSouth.TabIndex = 13;
             this.btnSouth.Text = "South";
             this.btnSouth.UseVisualStyleBackColor = true;
@@ -200,10 +194,9 @@
             // 
             // btnEast
             // 
-            this.btnEast.Location = new System.Drawing.Point(772, 571);
-            this.btnEast.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEast.Location = new System.Drawing.Point(686, 457);
             this.btnEast.Name = "btnEast";
-            this.btnEast.Size = new System.Drawing.Size(84, 29);
+            this.btnEast.Size = new System.Drawing.Size(75, 23);
             this.btnEast.TabIndex = 14;
             this.btnEast.Text = "East";
             this.btnEast.UseVisualStyleBackColor = true;
@@ -211,10 +204,9 @@
             // 
             // btnWest
             // 
-            this.btnWest.Location = new System.Drawing.Point(552, 571);
-            this.btnWest.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnWest.Location = new System.Drawing.Point(491, 457);
             this.btnWest.Name = "btnWest";
-            this.btnWest.Size = new System.Drawing.Size(84, 29);
+            this.btnWest.Size = new System.Drawing.Size(75, 23);
             this.btnWest.TabIndex = 15;
             this.btnWest.Text = "West";
             this.btnWest.UseVisualStyleBackColor = true;
@@ -222,21 +214,19 @@
             // 
             // rtbLocation
             // 
-            this.rtbLocation.Location = new System.Drawing.Point(490, 24);
-            this.rtbLocation.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rtbLocation.Location = new System.Drawing.Point(436, 19);
             this.rtbLocation.Name = "rtbLocation";
             this.rtbLocation.ReadOnly = true;
-            this.rtbLocation.Size = new System.Drawing.Size(404, 130);
+            this.rtbLocation.Size = new System.Drawing.Size(360, 105);
             this.rtbLocation.TabIndex = 16;
             this.rtbLocation.Text = "";
             // 
             // rtbMessages
             // 
-            this.rtbMessages.Location = new System.Drawing.Point(490, 162);
-            this.rtbMessages.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rtbMessages.Location = new System.Drawing.Point(436, 130);
             this.rtbMessages.Name = "rtbMessages";
             this.rtbMessages.ReadOnly = true;
-            this.rtbMessages.Size = new System.Drawing.Size(404, 356);
+            this.rtbMessages.Size = new System.Drawing.Size(360, 286);
             this.rtbMessages.TabIndex = 17;
             this.rtbMessages.Text = "";
             // 
@@ -248,15 +238,14 @@
             this.dgvInventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvInventory.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvInventory.Enabled = false;
-            this.dgvInventory.Location = new System.Drawing.Point(18, 162);
-            this.dgvInventory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvInventory.Location = new System.Drawing.Point(16, 130);
             this.dgvInventory.MultiSelect = false;
             this.dgvInventory.Name = "dgvInventory";
             this.dgvInventory.ReadOnly = true;
             this.dgvInventory.RowHeadersVisible = false;
             this.dgvInventory.RowHeadersWidth = 51;
             this.dgvInventory.RowTemplate.Height = 24;
-            this.dgvInventory.Size = new System.Drawing.Size(409, 236);
+            this.dgvInventory.Size = new System.Drawing.Size(364, 189);
             this.dgvInventory.TabIndex = 18;
             // 
             // dgvQuests
@@ -267,22 +256,21 @@
             this.dgvQuests.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvQuests.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvQuests.Enabled = false;
-            this.dgvQuests.Location = new System.Drawing.Point(18, 582);
-            this.dgvQuests.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvQuests.Location = new System.Drawing.Point(16, 466);
             this.dgvQuests.MultiSelect = false;
             this.dgvQuests.Name = "dgvQuests";
             this.dgvQuests.ReadOnly = true;
             this.dgvQuests.RowHeadersVisible = false;
             this.dgvQuests.RowHeadersWidth = 51;
             this.dgvQuests.RowTemplate.Height = 24;
-            this.dgvQuests.Size = new System.Drawing.Size(409, 236);
+            this.dgvQuests.Size = new System.Drawing.Size(364, 189);
             this.dgvQuests.TabIndex = 19;
             // 
             // SuperAdventure
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1014, 1020);
+            this.ClientSize = new System.Drawing.Size(901, 816);
             this.Controls.Add(this.dgvQuests);
             this.Controls.Add(this.dgvInventory);
             this.Controls.Add(this.rtbMessages);
@@ -304,9 +292,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "SuperAdventure";
             this.Text = "My Game";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SuperAdventure_FormClosing);
             this.Load += new System.EventHandler(this.SuperAdventure_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).EndInit();
