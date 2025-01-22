@@ -49,6 +49,7 @@
             this.rtbMessages = new System.Windows.Forms.RichTextBox();
             this.dgvInventory = new System.Windows.Forms.DataGridView();
             this.dgvQuests = new System.Windows.Forms.DataGridView();
+            this.btnTrade = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).BeginInit();
             this.SuspendLayout();
@@ -265,6 +266,17 @@
             this.dgvQuests.RowTemplate.Height = 24;
             this.dgvQuests.Size = new System.Drawing.Size(364, 189);
             this.dgvQuests.TabIndex = 19;
+            //
+            // btnTrade
+            this.Controls.Add(this.btnTrade);
+            //
+            this.btnTrade.Location = new System.Drawing.Point(493, 620);
+            this.btnTrade.Name = "btnTrade";
+            this.btnTrade.Size = new System.Drawing.Size(75, 23);
+            this.btnTrade.TabIndex = 21;
+            this.btnTrade.Text = "Trade";
+            this.btnTrade.UseVisualStyleBackColor = true;
+            this.btnTrade.Click += new System.EventHandler(this.btnTrade_Click);
             // 
             // SuperAdventure
             // 
@@ -311,6 +323,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblHitPoints;
         private System.Windows.Forms.Label lblGold;
+        private System.Windows.Forms.Button btnTrade;
         private System.Windows.Forms.Label lblExperience;
         private System.Windows.Forms.Label lblLevel;
         private System.Windows.Forms.Label label5;
