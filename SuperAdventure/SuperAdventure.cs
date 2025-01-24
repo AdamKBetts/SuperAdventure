@@ -23,13 +23,18 @@ namespace SuperAdventure
         {
             InitializeComponent();
 
-            if (File.Exists(PLAYER_DATA_FILE_NAME))
+            _player = PlayerDataMapper.CreateFromDatabase();
+
+            if (_player == null)
             {
-                _player = Player.CreatePlayerFromXmlString(File.ReadAllText(PLAYER_DATA_FILE_NAME));
-            }
-            else
-            {
-                _player = Player.CreateDefaultPlayer();
+                if (File.Exists(PLAYER_DATA_FILE_NAME))
+                {
+                    _player = Player.CreatePlayerFromXmlString(File.ReadAllText(PLAYER_DATA_FILE_NAME));
+                }
+                else
+                {
+                    _player = Player.CreateDefaultPlayer();
+                }
             }
 
             lblHitPoints.DataBindings.Add("Text", _player, "CurrentHitPoints");
@@ -201,21 +206,25 @@ namespace SuperAdventure
         private void SuperAdventure_FormClosing(object sender, FormClosingEventArgs e)
         {
             File.WriteAllText(PLAYER_DATA_FILE_NAME, _player.ToXmlString());
+
+            PlayerDataMapper.SaveToDatabase(_player);
         }
 
         private void cboWeapons_SelectedIndexChanged(object sender, EventArgs e)
         {
             _player.CurrentWeapon = (Weapon)cboWeapons.SelectedItem;
         }
-        private void SuperAdventure_Load(object sender, EventArgs e)
-        {
 
-        }
         private void btnTrade_Click(object sender, EventArgs e)
         {
             TradingScreen tradingScreen = new TradingScreen(_player);
             tradingScreen.StartPosition = FormStartPosition.CenterParent;
             tradingScreen.ShowDialog(this);
+        }
+
+        private void SuperAdventure_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
